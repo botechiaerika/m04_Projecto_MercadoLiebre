@@ -1,5 +1,0 @@
-# m04_Projecto_MercadoLiebre
-
-# README-ME and PROJECT IN BUILDING PROCESS - FINAL VERSION ON 31/01/22 
-
-
