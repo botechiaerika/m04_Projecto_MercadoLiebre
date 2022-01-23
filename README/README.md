@@ -1,28 +1,25 @@
 # Mercado LIEBRE
 
+**README IN CONSTRUCTION**
 Entrega FINAL: 31  enero entrega 2022
 
-## **OBJETIVO #01 - JS , NODE y EXPRESS**
+## **OBJETIVO #01: JS , NODE y EXPRESS
 
-1. Crear estructura de un projecto **NODE JS** y use **EXPRESS**
+1) Crear estructura de un projecto **NODE JS** y use **EXPRESS**
+2) Inserir imagens PRE-DEFINIDAS public/img creada
 
-2. Agregar imagens PRE-DEFINIDAS en carpeta img
-  > NOTA: logo cargado en carpeta SVG por prolijidad
-  
+  >NOTA: logo cargado en carpeta SVG por prolijidad
 
-3)Crear un archivo home.html con la estructura html necesaria.
+3)Crear un archivo public/home.html con la estructura que conste de HEADER MAIN FOOTER:
+HEADER
 
-El mismo deberá tener las secciones header, mai
-
-El header deberá tener:
-
-● Logo
+- Logo
 
 ● Lugar para poner la barra de búsqueda
 
 ● Comprá en cuotas y sin tarjeta de crédito
 
-● Barra de navegación que posea las siguientes opciones (en el orden que decidas):
+● Barra de navegación que posea las siguientes opciones (en el orden que decidas)
 
 ○ Oferta
 
@@ -154,7 +151,6 @@ Descripciones: 16px
 
 Para saber como cargarla:
 
-
 Iconos
 
 Fontawesome
@@ -174,7 +170,6 @@ El contenido de todos los artículos debe estar centrado
 Los iconos deben tener un tamaño de 2em y un margen inferior de 10px (este margen genera una separación de 10 pixeles)
 
 ## SPRINT #03
-
 
 Centrar la sección main
 
@@ -198,4 +193,4 @@ Para el header, en la versión mobile ocultar el site y login navbar. Y en las o
 
 Para los dipositivos tablets o superiores agregar box-shadow. De la forma:
 
-box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100).
