@@ -1,18 +1,21 @@
-# m04_Projecto_MercadoLiebre
-
-
-# Mercado LIEBRE
+# m04_Projecto_MercadoLiebre - Mercado LIEBRE
 
 **README IN CONSTRUCTION**
 Entrega FINAL: 31  enero entrega 2022
 
-## **OBJETIVO #01: JS , NODE y EXPRESS
+## SPRINT 1
+
+### OBJETIVO 01: JS , NODE y EXPRESS
 
 1) Crear estructura de un projecto **NODE JS** y use **EXPRESS**
 2) Inserir imagens PRE-DEFINIDAS public/img creada
 
   >NOTA: logo cargado en carpeta SVG por prolijidad
-3)Crear un archivo public/home.html con la estructura que conste de HEADER MAIN FOOTER:
+
+3)Crear un archivo public/home.html con la estructura que conste de HEADER MAIN
+
+### OBJETIVO #02: ESTRUCTURA HTML
+
 HEADER
 
 - Logo
@@ -135,9 +138,10 @@ Celeste: #1259c3;
 Gris oscuro: #666;
 Gris claro: #ebebeb;
 Verde: #39b54a;
+
 Tipografías
 
-Familia: 'Roboto’
+- Familia: 'Roboto'
 
 Tamaños Tipográficos
 

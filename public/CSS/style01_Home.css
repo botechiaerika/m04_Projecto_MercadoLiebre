@@ -1,0 +1,3 @@
+@media (max-width: 361px) {body {background-color: orange;}}
+@media (min-width: 361px) {body {background-color: yellow;}}
+@media (min-width: 769px) {body {background-color: blue;}}
