@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" />
+
+
+    <!--Bootstrap CSS v5.0.2-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!--PERSONAL STYLESHEET-->
+    <link rel="stylesheet" href="../public/CSS/style01_Home.css" />
+
+    <title>HOME</title>
+</head>
+
+<body class="bg-body-customize">
+
+    <script src="https://use.fontawesome.com/cb2d0db4c2.js"></script>
+    <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+                                <span class="sr-only">
+                                    Toggle navigation
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                            </button>
+
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="../public/SVG/logo-mercado-liebre.svg" alt="logo Mercado Libre" class="d-inline-block align-text-top brand-img-customize">
+                            <h2>Comprá en cuotas y sin tarjeta de crédito</h2>
+                        </a>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Producto" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                    </a>
+                </div>
+                <!-- Search Navbar -->
+                <form class="navbar-form navbar-left search-container hidden-xs" role="search">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Search" type="text">
+                        </input>
+                    </div>
+                    <button class="btn btn-default btn-search" type="submit">
+                                <i aria-hidden="true" class="fa fa-search text-center">
+                                </i>
+                            </button>
+                </form>
+                <!--END Search navbar -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+                        <!--Search xs -->
+                        <li class="visible-xs ">
+                            <form class="navbar-form navbar-left search-xs" role="search">
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Search" type="text">
+                                    </input>
+                                </div>
+                                <button class="btn btn-default search-btn-xs pull-right" type="submit">
+                                            Submit
+                                        </button>
+                            </form>
+                        </li>
+                        <!-- END Search xs -->
+                        <li class="active">
+                            <a href="#">
+                                        Home
+                                        <span class="sr-only">
+                                            (current)
+                                        </span>
+                                    </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                        Profile
+                                    </a>
+                        </li>
+                        <li data-placement="bottom" data-toggle="tooltip" title="Friend requests">
+                            <a href="">
+                                <i aria-hidden="true" class="fa fa-user">
+                                        </i>
+                            </a>
+                        </li>
+                        <li data-placement="bottom" data-toggle="tooltip" title="Messages">
+                            <a href="">
+                                <i aria-hidden="true" class="fa fa-envelope-o">
+                                        </i>
+                            </a>
+                        </li>
+                        <li data-placement="bottom" data-toggle="tooltip" title="Notifications">
+                            <a href="">
+                                <i aria-hidden="true" class="fa fa-globe">
+                                        </i>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                                <i aria-hidden="true" class="fa fa-wrench">
+                                        </i>
+                                <span class="caret">
+                                        </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="config.html">
+                                                Configurations
+                                            </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                                Another action
+                                            </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                                Something else here
+                                            </a>
+                                </li>
+                                <li class="divider" role="separator">
+                                </li>
+                                <li>
+                                    <a href="#">
+                                                About
+                                            </a>
+                                </li>
+                                <li class="divider" role="separator">
+                                </li>
+                                <li>
+                                    <a data-target="#myModal" data-toggle="modal" href="#myModal">
+                                        <i aria-hidden="true" class="fa fa-sign-out">
+                                                </i> Exit
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collxapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <!-- Configuration Modal -->
+        <div class="modal fade" id="myModal" role="dialog" tabindex="-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                    <span aria-hidden="true">
+                                        ×
+                                    </span>
+                                </button>
+                        <h4 class="modal-title">
+                            <i aria-hidden="true" class="fa fa-sign-out">
+                                    </i> Exit
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Are you sure you want to quit?
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-default" data-dismiss="modal" type="button">
+                                    Close
+                                </button>
+                        <button class="btn btn-primary" type="button">
+                                    Exit
+                                </button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- Configuration modal -->
+    </div>
+    <header>
+        <nav class="navbar navbar-light bg-color-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../public/SVG/logo-mercado-liebre.svg" alt="logo Mercado Libre" class="d-inline-block align-text-top brand-img-customize">
+                    <h2>Comprá en cuotas y sin tarjeta de crédito</h2>
+                </a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Producto" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+        navba
+    </header>
+
+
+    Barra de navegación que posea las siguientes opciones (en el orden que decidas) ○ Oferta ○ Tiendas Oficiales ○ Vender ○ Ayuda ○ Creá tu cuenta ○ Ingresá ○ Mis compras MAIN ● Lugar para poner la barra de búsqueda ● Comprá en cuotas y sin tarjeta de crédito
+    El main deberá tener dos secciones con información de productos: ● Basado en tu última visita Imagen de producto Precio producto Porcenta de descuento (si tiene) Nombre de producto Ejemplos: imagen de MacBook $230.000 20% off MacBook Pro 2019 ● Sección
+    de Ofertas Imagen de producto Precio de producto Porcentaje de descuento (si tiene) Nombre de producto Ejemplos: imagen de MacBook $230.000 20% off MacBook Pro 2019 FOOTER El footer deberá tener las siguientes secciones: El footer deberá tener las
+    siguientes secciones: ● Pagá con tarjeta o efectivo Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro! ● Envío gratis desde $ 2.500 Solo por estar registrad@ en Mercado Liebre tenés envíos
+    gratis en miles de productos. Es un beneficio de Mercado Puntos. ● Seguridad, de principio a fin ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@. ● Copyright © 1999-2020 MercadoLiebre S.R.L.
+    ● Envío gratis desde $ 2.500 Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos. imagen del Samsung Galaxy $70.500 10% off Samsung Galaxy S10 imagen del Samsung Galaxy $70.500 10%
+    off Samsung Galaxy S10 ● Seguridad, de principio a fin ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@. ● Copyright © 1999-2020 MercadoLiebre S.R.L.
+
+
+
+    <!--HEADER
+
+● Logo
+
+● Lugar para poner la barra de búsqueda
+
+● Comprá en cuotas y sin tarjeta de crédito
+
+● Barra de navegación que posea las siguientes opciones (en el orden que decidas):
+
+○ Oferta
+
+○ Tiendas Oficiales
+
+○ Vender
+
+○ Ayuda
+
+○ Creá tu cuenta
+
+○ Ingresá
+
+○ Mis compras-->
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>
