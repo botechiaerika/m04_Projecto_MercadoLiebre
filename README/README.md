@@ -134,7 +134,7 @@ Gris oscuro: #666;
 Gris claro: #ebebeb;
 Verde: #39b54a;
 Tipografías
-
+preview02_Colores.png
 Familia: 'Roboto’
 
 Tamaños Tipográficos
