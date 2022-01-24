@@ -1,16 +1,19 @@
-const express = require('express')
-const app = express()
+const express = require('./node_modules/express'); 
+const app = express();
+const path = require('path')
 
-app.listen(3030, () => {
-  console.log('Levante WEB SERVER en port 3030')
-})
+
+
 
 app.get('/home', (req, res) => {
-  res.sendFile((__dirName + 'views/home.html'));
+	console.log( __dirname );
+  // mostra variable ubicacion archivo html en pc
+	let htmlHome = path.resolve( __dirname, './mercadoLIEBRE/views/home.html');
+  res.sendFile(path.join(htmlHome))
 })
 
+
+
 app.listen(3030, () => {
-  console.log('Levante WEB SERVER en port 3030')
+	console.log('Levante servidor en port 3030')
 })
-//CANNOT GET EN localhost:3000 porque no definimos resposta en rua raiz
-//COMMAND C FRENA EJECUCION 
