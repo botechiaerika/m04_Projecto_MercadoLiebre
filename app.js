@@ -8,7 +8,7 @@ const path = require('path')
 app.get('/home', (req, res) => {
 	console.log( __dirname );
   // mostra variable ubicacion archivo html en pc
-	let htmlHome = path.resolve( __dirname, './mercadoLIEBRE/views/home.html');
+	let htmlHome = path.resolve( __dirname , './mercadoLIEBRE/views/home.html');
   res.sendFile(path.join(htmlHome))
 })
 
