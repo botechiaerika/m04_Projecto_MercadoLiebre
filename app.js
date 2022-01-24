@@ -13,7 +13,6 @@ app.get('/home', (req, res) => {
 })
 
 
-
 app.listen(3030, () => {
     console.log('Levante servidor en port 3030')
 })
