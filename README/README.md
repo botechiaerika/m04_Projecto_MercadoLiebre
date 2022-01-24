@@ -1,3 +1,8 @@
+| col1 | col2 | col3 |
+| ------ | ------ | ------ |
+|      |      |      |
+|      |      |      |
+
 # Mercado LIEBRE
 
 **README IN CONSTRUCTION**
@@ -8,7 +13,7 @@ Entrega FINAL: 31  enero entrega 2022
 1) Crear estructura de un projecto **NODE JS** y use **EXPRESS**
 2) Inserir imagens PRE-DEFINIDAS public/img creada
 
-  >NOTA: logo cargado en carpeta SVG por prolijidad
+> NOTA: logo cargado en carpeta SVG por prolijidad
 
 3)Crear un archivo public/home.html con la estructura que conste de HEADER MAIN FOOTER:
 HEADER

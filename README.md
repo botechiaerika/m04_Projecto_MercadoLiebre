@@ -5,12 +5,33 @@ Entrega FINAL: 31  enero entrega 2022
 
 ## SPRINT 1
 
-### OBJETIVO 01: JS , NODE y EXPRESS
+SPRINT #01
+
+1) Crear la estructura de un proyecto express y levantar un servidor
+2) Copiar las imágenes que recibiste en su carpeta del proyecto “img”
+
+3. Crear un archivo home.html con la estructura html necesaria. El mismo deberá tener las secciones header, main y footer.
+
+HEADER
+
+- Logo
+- BARRA BUSQUEDA
+- SLOGAN: “Comprá en cuotas y sin tarjeta de crédito”
+  -NAVBAR con siguientes LINKS:
+  1. Ofertas
+  2. Tiendas Oficiales
+  3. Vender
+  4. Ayuda
+  5. Creá tu cuenta
+  6. Ingresá
+  7. Mis compras
+
+![preview Header 01] (',/README/preview01_Home.png')
 
 1) Crear estructura de un projecto **NODE JS** y use **EXPRESS**
 2) Inserir imagens PRE-DEFINIDAS public/img creada
 
-  >NOTA: logo cargado en carpeta SVG por prolijidad
+> NOTA: logo cargado en carpeta SVG por prolijidad
 
 3)Crear un archivo public/home.html con la estructura que conste de HEADER MAIN
 
