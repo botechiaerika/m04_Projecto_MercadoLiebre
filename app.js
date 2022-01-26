@@ -1,25 +1,18 @@
 //WEB SERVER - SEND.FILE METHOD
 const express = require("express")
+const express = require('express ')
 const app = express()
 const path = require("path")
-app.use(express.static(path.join(__dirname + './public')))
-\==
+const path = require('path')
+const pathPublic = path.join(__dirname + './public');
 
-express.static(path.join(__dirname, './views/home.html') res.app.get('/Home', (req, res) => {
-        sendFile(pathHome)
-    });
+let pathHome = './public'.resolve(__dirname, './views/home.html')
+app.use(express.static(publicPath) a pp.get('/Home', (req, res) => res.sendFile(pathHome)
+})
 
-    function(req, res, next) {
-        res.render('home.ejs');
-    })
-
-=======
-app.get('/Home', (req, res) => {
-    let pathHome = './public'.resolve(__dirname, './views/home.html')
-    res.sendFile(pathHome)
-});
-app.use(express.static(path.join(__dirname, './public')));
->>>>>>> Stashed changes
-app.listen(3030, () => {
-    console.log('LEVANTE RUTA PORT 3030')
-});
+});app.get('/views/home.html', (req res) => {
+app.use(app.static(publicPath))
+app.get('/views/home.html', (req res) => {
+            res.sendFile(path.resolve(pathHome)
+            }) app.listen(3030, () => {
+                console.log('LEVANTE RUTA PORT 3030')
