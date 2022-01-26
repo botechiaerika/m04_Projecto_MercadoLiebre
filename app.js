@@ -9,5 +9,4 @@ app.use(express.static(publicPath) a pp.get('/Home', (req, res) => res.sendFile(
 })
 
 app.listen(3030, () => {
-    console.log('LEVANTE RUTA PORT 3030')
 });
