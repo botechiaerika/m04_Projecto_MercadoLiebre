@@ -11,6 +11,8 @@ app.use(express.static(publicPath) a pp.get('/Home', (req, res) => res.sendFile(
 })
 
 });app.get('/views/home.html', (req res) => {
+app.use(app.static(publicPath))
+app.get('/views/home.html', (req res) => {
             res.sendFile(path.resolve(pathHome)
             }) app.listen(3030, () => {
                 console.log('LEVANTE RUTA PORT 3030')
