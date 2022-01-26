@@ -3,9 +3,7 @@ const express = require("express")
 const app = express()
 const path = require("path")
 app.use(express.static(path.join(__dirname + './public')))
-
-<<<<<<< Updated upstream
-
+\==
 
 express.static(path.join(__dirname, './views/home.html') res.app.get('/Home', (req, res) => {
         sendFile(pathHome)
