@@ -1,44 +1,18 @@
-<<<<<<< Updated upstream
-const express = require("express")
-=======
->>>>>>> Stashed changes
-const express = require('express ')
-const app = express()
-const path = require("path")
+const express = require('express');
+const app = require('express');
 const path = require('path')
-const pathPublic = path.join(__dirname + './public');
-
-let pathHome = './public'.resolve(__dirname, './views/home.html')
-app.use(express.static(publicPath) a pp.get('/Home', (req, res) => res.sendFile(pathHome)
-})
-
-<<
-<<
-<< < HEAD
-});
-app.get('/views/home.html', (req res) => {
-            app.use(app.static(publicPath))
-            app.get('/views/home.html', (req res) => {
-                        res.sendFile(path.resolve(pathHome)
-                        }) app.listen(3030, () => {
-                            console.log('LEVANTE RUTA PORT 3030') ===
-                                ===
-                                =
-
-                                let pathHome = path.join(__dirname, './views/home.html');
-                            app.get('/Home', (req, res) => {
-                                sendFile(path.resolve(pathHome))
-                            });
-
-                            let pathPublic = path.join(__dirname, './public');
-                            app.use(express.static(path.resolve(pathPublic)));
-
-                            app.listen(3030, () => {
-                                console.log('LEVANTE RUTA PORT 3030')
-                            }); >>>
-                            >>>
-                            > branch_sprint01
 app.listen(3030, () => {
-    console.log('LEVANTE RUTA PORT 3030')
+	console.log('Levante servidor en port 3030')
 })
->>>>>>> Stashed changes
+
+// Browder por medio de EXPRESS envia Resposta CANNOT GET / --> NO HAY INDICADO ROTA A SERVIDOR
+
+
+// PARTE 01 - SEND FILE METHOD enviar HTML A SERVIDOR
+const publicPath = path.join(__username , './public')
+console.log(publicPath)
+app.get('/home' () => {
+  res.send(resolve(publicPath , '/home'))
+})
+  
+
