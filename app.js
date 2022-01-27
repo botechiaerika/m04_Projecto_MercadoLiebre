@@ -1,16 +1,16 @@
 const express = require('express ')
-const app = express()
+
 const path = require('path')
 
+let publicPath = path.join(__dirname, './public')
+console.log(publicPath);
 
-let pathHome = './public'.resolve(__dirname, './views/home.html') app.use(express.static(publicPath) a pp.get('/Home', (req, res) => res.sendFile(pathHome)
+app.listen(3030, () => {
+    console.log("🖥️ LEVANTAR y RODAR WS en PORTA 3030")
 })
 
-});
-app.get('/views/home.html', (req res) => {
-    app.use(app.static(publicPath))
-}) app.get('/views/home.html', (req res) => {
-    res.sendFile(path.resolve(pathHome))
-}) app.listen(3030, () => {
-    console.log(':🎖️: PORT 3700')
+let pathHTML = path.join(__dirname, './views')
+console.log(pathHTML)
+app.get('/views/home.html', (req, res) => {
+    res.sendFile(resolve(path.join(pathHTML, '/home.html')))
 })
