@@ -1,4 +1,7 @@
+<<<<<<< Updated upstream
 const express = require("express")
+=======
+>>>>>>> Stashed changes
 const express = require('express ')
 const app = express()
 const path = require("path")
@@ -35,3 +38,7 @@ app.get('/views/home.html', (req res) => {
                             }); >>>
                             >>>
                             > branch_sprint01
+app.listen(3030, () => {
+    console.log('LEVANTE RUTA PORT 3030')
+})
+>>>>>>> Stashed changes
