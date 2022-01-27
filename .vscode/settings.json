@@ -1,0 +1,10 @@
+{
+  "editor.fontSize": 25,
+  "editor.codeLensFontSize": 12,
+  "editor.fastScrollSensitivity": 12,
+  "editor.foldingImportsByDefault": true,
+  "editor.maxTokenizationLineLength": 120,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.wordWrapColumn": 120
+}
