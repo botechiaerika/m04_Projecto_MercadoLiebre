@@ -1,0 +1,48 @@
+.bg-Amarillo{
+    background-color:#EAC926;
+}
+.font-Amarillo{
+    color:#EAC926;
+}
+.bg-Azul{background-color: #03264C;
+}
+.font-Azul{font: #03264C;
+}
+.bg-Amarillo{
+    background-color:#1259c3;
+.font-Celeste{
+    color:#1259c3;
+}
+.font-50ShadesDark{
+    color:#666;
+}
+.bg-50ShadesDark{
+     background-color:#666;
+ }
+.bg-50ShadesLight{
+    background-color:#ebebeb;
+}
+.color-50ShadesLight{
+      color: #e2e2e2;
+}
+bg-palmeras{
+    background-color: #39b54a;
+}
+}.font-palmeras{
+     color: #39b54a;
+ }
+font-Amarillo{
+    color:#EAC926;
+}
+
+/*TIPOGRAFIA ROBOTO*/
+
+p{
+    font-size: 12px;
+}
+
+/*HEADERS*/
+
+.visited .offer{
+    font-size: 1rem;
+}
