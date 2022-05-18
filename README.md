@@ -221,3 +221,52 @@ Para el header, en la versión mobile ocultar el site y login navbar. Y en las o
 Para los dipositivos tablets o superiores agregar box-shadow. De la forma:
 
 box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100).
+
+
+
+**CODE NOTES**
+
+# FLEXBOX
+-------
+#### FLEX-WRAP 
+ => Mantiene **WIDTH** de elementos dispuestos aunque uno tenga que passar a next row
+
+ ### EJES - HORIZONTAL y VERTICAL
+
+ #### MAIN AXIS
+ EJE PRINCIPAL HORIZONTAL **<--->**
+
+ #### CROSS AXIS 
+ EJE VERTICAL **||**
+
+## POSICIONAMIENTO FLEX = LIBERTAD DE ORIENTACION DE MOVIMIENTO
+#### START and END
+
+##### Main Axis **START**
+
+DISPOSICION DEFAULT
+![DEFAULT]('https://www.fullstackstudent.com/static/5e2c20b154b63094d171bedb8860b7fe/0f67e/figure1.png)
+
+MAIN AXIS START - LEFT SIDE START -->
+CROSS AXIS UBICADO A PUNTO MEDIO
+MAIN AXIS END - RIGHT SIDE START -->
+CROSS AXIS UBICADO A PUNTO MEDIO
+
+
+EJES AXIS ENTENDER
+
+
+CONFIGURAR CSS CON MAIN AXIS Y FLEXIS AXIS EN OTRAS ORIENTACIONES
+
+FLEX DIRECTION DEFAULT
+--123-MAIN DEFAULT ROW---
+MAIN AXIS PRINCIPAL
+MAIN START S--->
+MAIN END + CROSS END --->END
+
+
+FLEX-DIRECTION: COLUMN 
+    **M**
+    **A**
+    **I**
+    **N**

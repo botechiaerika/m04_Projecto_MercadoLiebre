@@ -4,7 +4,8 @@
   "description": "# README-ME and PROJECT IN BUILDING PROCESS - FINAL VERSION ON 31/01/22",
   "main": "app.js",
   "scripts": {
-    "test": "run test.js"
+    "test": "run test.js",
+    "dev" : "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,12 @@
   "homepage": "https://github.com/BotechiaErika/m04_Projecto_MercadoLiebre#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "nodemon": "^2.0.15",
+    "package": "^1.0.1",
+    "package-lock": "^1.0.5",
     "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.16"
   }
 }
