@@ -12,8 +12,8 @@ const publicPlataformPath = path.join(__dirname , '/public')
 
 app.use(express.static(publicPlataformPath))
 app.get('/' ,(req, res) => {
-  res.send('INDEX ON SERVER')
-})
+  res.send('index')
+}),
 app.get('/home' ,(req, res) => {
   res.send('Home ON SERVER')
 })
